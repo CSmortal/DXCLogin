@@ -1,0 +1,58 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.titleRegister {
+    font-size: 56px;
+    color: #333;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.register-form-input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.register-form-label {
+    margin: 0 auto;
+}
+
+.register-form-register-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    align-self: center
+}
+
+.register-failed-text {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    bottom: 30vh;
+}
+
+.validation-msg {
+    margin: 0 auto;
+    color: red;
+    font-weight: bold;
+}
